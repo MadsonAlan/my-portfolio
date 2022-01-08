@@ -5,7 +5,7 @@ export function HeaderPortfolio() {
     return (
         <header className={styles.header}>
             <div>
-                <h1 ><MdArrowBackIosNew /><MdArrowForwardIos /> Programador</h1>
+                <p ><strong><MdArrowBackIosNew /><MdArrowForwardIos />Programador</strong></p>
                 <ul >
                     <li><a href="#what">Inicio</a></li>
                     <li><a href="#why">Sobre</a></li>

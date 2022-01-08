@@ -2,13 +2,21 @@
     display: flex;
     flex: 1;
     align-items: center;
+    justify-content: center;
     div {
+        padding-top: 1.5rem;
         display: flex;
         flex: 1;
         width: 100%;
         max-width: 992px;
         align-items: center;
-        justify-content: center;
+        justify-content: space-between;
+        svg {
+            color: var(--primary);
+            &:first-child {
+                margin-right: -0.5rem;
+            }
+        }
         ul {
             display: flex;
             li {
