@@ -1,0 +1,28 @@
+.presentationContainer {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+}
+
+.gridPresentationContainer {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    div:first-child {
+        z-index: 20;
+        position: absolute;
+        margin-right: 20%;
+        h1 {
+            font-size: 3rem;
+        }
+        button {
+            padding: 1rem;
+            color: var(--white);
+            background: var(--primary);
+            border: none
+        }
+    }
+    div:last-child {
+        margin-left: 38%;
+    }
+}
